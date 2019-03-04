@@ -1,14 +1,7 @@
-x = input()
-print(type(x))
-x = float(x)
+x = "Ala ma kota, a kot ma Ale :3"
 
-x = x + 2
+y = x[-5:]
 
+print(y)
 print(x)
-print(type(x))
-
-
-
-
-
 
