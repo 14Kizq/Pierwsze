@@ -1,8 +1,14 @@
-x = 10
-print(x)
-
-x = x + 2 * 2  / 2
-
-
-
+x = input()
 print(type(x))
+x = float(x)
+
+x = x + 2
+
+print(x)
+print(type(x))
+
+
+
+
+
+
