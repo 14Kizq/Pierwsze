@@ -1,7 +1,11 @@
-x = "Ala ma kota, a kot ma Ale :3"
+x = input()
+x = int(x)
+print(type(x))
 
-y = x[-5:]
+if bool(x) :
+    print("Zgadza sie")
+    print("tak")
+else:
+    print("nie zgadza sie ")
 
-print(y)
-print(x)
-
+print("gotowe")
