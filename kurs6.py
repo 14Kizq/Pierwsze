@@ -1,13 +1,9 @@
 
-person = {"wiek": 20, "imie": "Ania", "nazwisko": "Kowalska"}
+sum = 0
 
-keys = person.keys()
-
-print(keys)
-
-print(person["nazwisko"])
-print(person["imie"])
-print(person.get("wzrost ",25))
-
-print(type(person))
-
+while True:
+    print("Wpisz jakas liczbe")
+    x = input()
+    a = int(x)
+    sum += a
+    print(sum)
