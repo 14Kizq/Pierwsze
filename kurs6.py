@@ -1,12 +1,13 @@
 fruits = ["apple", "orange", "pear", "banana", "apple"]
 
-print("rozpoczynam petle")
+print("Start")
 
-for i, fruit in enumerate(fruits):
-    print("sprawdzam {}".format(i))
-    if i == 3:
+for fruit in fruits:
+    if fruit == "orange":
+        continue
+    if fruit == "banana":
         break
+    print(fruit)
 
-    print("{} jest ok". format(fruit))
 
-print("koniec")
+print("Koniec")
