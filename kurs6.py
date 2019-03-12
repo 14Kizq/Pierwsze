@@ -1,9 +1,12 @@
+fruits = ["apple", "orange", "pear", "banana", "apple"]
 
-sum = 0
+print("rozpoczynam petle")
 
-while True:
-    print("Wpisz jakas liczbe")
-    x = input()
-    a = int(x)
-    sum += a
-    print(sum)
+for i, fruit in enumerate(fruits):
+    print("sprawdzam {}".format(i))
+    if i == 3:
+        break
+
+    print("{} jest ok". format(fruit))
+
+print("koniec")
