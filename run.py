@@ -1,11 +1,12 @@
-x = input()
-x = int(x)
-print(type(x))
 
-if bool(x) :
-    print("Zgadza sie")
-    print("tak")
-else:
-    print("nie zgadza sie ")
+f = open("plik.txt", "r")
 
-print("gotowe")
+
+
+for line in f.readlines():
+    print(line.strip())
+
+
+
+f.close()
+
