@@ -1,12 +1,7 @@
+import os
+path = "pliki/01/dane.txt"
+dir_path = os.path.dirname(path)
 
-f = open("plik.txt", "r")
-
-
-
-for line in f.readlines():
-    print(line.strip())
-
-
-
-f.close()
+os.makedirs(dir_path)
+open(path, "w").close()
 
